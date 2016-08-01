@@ -12,6 +12,8 @@
 		ABC76B061D3A3A3200540AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC76B041D3A3A3200540AB4 /* Main.storyboard */; };
 		ABC76B081D3A3A3200540AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC76B071D3A3A3200540AB4 /* Assets.xcassets */; };
 		ABC76B0B1D3A3A3200540AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC76B091D3A3A3200540AB4 /* LaunchScreen.storyboard */; };
+		ABC76B371D3A568800540AB4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC76B361D3A568700540AB4 /* SecondViewController.swift */; };
+		ABC76B391D3A5ACA00540AB4 /* BlurTranstioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC76B381D3A5ACA00540AB4 /* BlurTranstioning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		ABC76B071D3A3A3200540AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC76B0A1D3A3A3200540AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABC76B0C1D3A3A3200540AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC76B121D3A3A5900540AB4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		ABC76B361D3A568700540AB4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ABC76B381D3A5ACA00540AB4 /* BlurTranstioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurTranstioning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +61,13 @@
 			children = (
 				ABC76B001D3A3A3200540AB4 /* AppDelegate.swift */,
 				ABC76B021D3A3A3200540AB4 /* ViewController.swift */,
+				ABC76B121D3A3A5900540AB4 /* MyPlayground.playground */,
 				ABC76B041D3A3A3200540AB4 /* Main.storyboard */,
 				ABC76B071D3A3A3200540AB4 /* Assets.xcassets */,
 				ABC76B091D3A3A3200540AB4 /* LaunchScreen.storyboard */,
 				ABC76B0C1D3A3A3200540AB4 /* Info.plist */,
+				ABC76B361D3A568700540AB4 /* SecondViewController.swift */,
+				ABC76B381D3A5ACA00540AB4 /* BlurTranstioning.swift */,
 			);
 			path = iOSBlur;
 			sourceTree = "<group>";
@@ -135,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC76B371D3A568800540AB4 /* SecondViewController.swift in Sources */,
 				ABC76B031D3A3A3200540AB4 /* ViewController.swift in Sources */,
+				ABC76B391D3A5ACA00540AB4 /* BlurTranstioning.swift in Sources */,
 				ABC76B011D3A3A3200540AB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
